@@ -5,7 +5,8 @@ new Vue({
         message:'test',
         name : 'Wing',
         job : 'Software Engineer',
-        linktag : '<a href="http://www.google.com">google</a>'
+        website :'http://www.google.com',
+        linkhtml :'<a href="http://www.google.com">Link Html</a>'
 
     },
     methods:{
