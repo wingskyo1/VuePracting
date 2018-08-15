@@ -10,12 +10,16 @@
     <body>
         <div id="vue-app">
             <h1>
-               Data Binding
+               Keyboard Events
             </h1>
-            <a v-bind:href="website">Link</a>
-            <input type="text" v-bind:value="job"/>
-            <p>Job : {{job}}</p>
-            <p v-html="linkhtml"></p>
+            <label>Name:</label>
+            <input type="text" v-model="name"/>
+            <span>{{name}}</span>
+            <label>Age:</label>
+            <input type ="text" v-model="age" />
+            <span>{{age}}</span>
+
+      
         </div>
 
 
@@ -25,4 +29,3 @@
       
     </body>
 </html>
-    
