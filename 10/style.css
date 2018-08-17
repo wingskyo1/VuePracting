@@ -1,0 +1,21 @@
+#canvas{
+
+width: 600px;
+padding: 200px 20px;
+text-align: center;
+border: 1px solid #333;
+
+}
+
+.red
+{
+
+color: salmon
+
+}
+.yellow
+{
+
+color: rgb(126, 94, 184)
+
+}

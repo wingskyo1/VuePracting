@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>VueJS Practing</title>
+        <link href="style.css" rel="stylesheet">
+        <Script src="http://unpkg.com/vue"></Script>
+    </head>
+    <body>
+ 
+        <div id="vue-app">
+            <h1>
+               Dynamic CSS
+             </h1>
+             <h2>Example 1 </h2>
+             <div v-bind:class="{red:red}">test1</div>
+             <h2>Example 2 </h2>
+             <div v-bind:class="{yellow:yellow}">test2</div>
+             <button v-on:click = "reddo"> red </button>
+             <button v-on:click = "yellowdo"> yellow by method </button>
+             <button v-on:click = "yellow = !yellow"> by fuction on click </button>
+
+             <p>Red : {{red}}</p>
+             <p>Yellow : {{yellow}} {{show()}}</p>
+
+
+
+   
+
+        </div>
+
+
+        <script src = "app.js">
+        </script>
+      
+    </body>
+</html>

@@ -10,12 +10,21 @@
     <body>
         <div id="vue-app">
             <h1>
-                Computer Properties
+                Computed Properties vs Method Properties
+
              </h1>
+             <p>
+                When data changes , all Method properies(which return value) will refresh while computed properies(which return value) only refresh the changed item
+             </p>
              <button v-on:click="a++">Add to A</button>
              <button v-on:click="b++">Add to B</button>
              <p>A = {{a}}</p>
              <p>B = {{b}}</p>
+             <p>Age + A = {{addToA}}</p>
+             <p>Age + B = {{addToB}}</p>
+             <p>Age + A  = {{addToA_Method()}}</p>
+             <p>Age + B = {{addToB_Method()}}</p>
+
         </div>
 
 
